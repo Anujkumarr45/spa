@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Darling Spa | Luxury Spa Experiences in Sydney</title>
+  <meta name="description" content="Discover spa treatments, couples' experiences, and relaxation facilities at The Darling Spa in Pyrmont, Sydney.">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="The Darling Spa | Luxury Spa Experiences in Sydney">
+  <meta property="og:description" content="Discover restorative spa treatments, couples' experiences, and relaxation facilities at The Star, Pyrmont.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD LocalBusiness Schema (Verified fields only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DaySpa",
+    "name": "The Darling Spa",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Level 2, The Star, 80 Pyrmont Street",
+      "addressLocality": "Pyrmont",
+      "addressRegion": "NSW",
+      "postalCode": "2009",
+      "addressCountry": "AU"
+    },
+    "telephone": "+61296578088",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "19:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Proposal Disclaimer Banner -->
+  <div class="proposal-banner" role="complementary" aria-label="Concept Disclaimer">
+    <div class="container proposal-banner__content">
+      <span>Independent design concept — not an official publication of The Darling Spa.</span>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header" id="header" data-header>
+    <div class="container header__container">
+      <a href="#hero" class="brand-logo" aria-label="The Darling Spa Sydney">
+        <span class="brand-logo__main">THE DARLING SPA</span>
+        <span class="brand-logo__sub">SYDNEY</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">The Spa</a></li>
+          <li><a href="#treatments" class="nav-link">Treatments</a></li>
+          <li><a href="#signature" class="nav-link">Experiences</a></li>
+          <li><a href="#sanctuary" class="nav-link">Our Sanctuary</a></li>
+          <li><a href="#contact" class="nav-link">Visit Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#enquire" class="btn btn--outline-gold desktop-only">Book an Experience</a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation menu">
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-drawer__inner">
+      <nav aria-label="Mobile Navigation">
+        <ul class="mobile-nav-links">
+          <li><a href="#about" class="mobile-link">The Spa</a></li>
+          <li><a href="#treatments" class="mobile-link">Treatments</a></li>
+          <li><a href="#signature" class="mobile-link">Experiences</a></li>
+          <li><a href="#sanctuary" class="mobile-link">Our Sanctuary</a></li>
+          <li><a href="#contact" class="mobile-link">Visit Us</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-drawer__footer">
+        <a href="#enquire" class="btn btn--primary mobile-btn">Book an Experience</a>
+        <a href="https://wa.me/61296578088?text=Hello%20The%20Darling%20Spa,%20I%20would%20like%20to%20enquire%20about%20a%20spa%20booking." target="_blank" rel="noopener noreferrer" class="mobile-drawer__whatsapp">Chat on WhatsApp</a>
+        <a href="tel:+61296578088" class="mobile-drawer__phone">+61 2 9657 8088</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- 5. Hero Section -->
+    <section class="hero" id="hero" aria-label="Welcome">
+      <div class="hero__media">
+        <img 
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80" 
+          alt="Serene luxury spa pool lounge with warm ambient lighting" 
+          class="hero__image"
+          fetchpriority="high"
+        >
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="eyebrow eyebrow--light">The Darling Spa · Sydney</span>
+          <h1 class="hero__title">An Invitation<br>to Unwind.</h1>
+          <p class="hero__subtext">
+            Discover a sanctuary of tranquillity, thoughtful treatments, and restorative spa experiences in the heart of Sydney.
+          </p>
+          <div class="hero__ctas">
+            <a href="#treatments" class="btn btn--gold">Explore Treatments</a>
+            <a href="#enquire" class="btn btn--secondary">Book an Experience</a>
+          </div>
+          <span class="hero__tagline">The Star · Pyrmont, Sydney</span>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-text">Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- 6. About Section -->
+    <section class="section section--light about" id="about">
+      <div class="container">
+        <div class="split-grid">
+          <div class="split-grid__media reveal-on-scroll">
+            <div class="media-frame">
+              <img 
+                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1000&q=80" 
+                alt="Therapist preparing essential botanicals for a treatment session" 
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <div class="split-grid__content reveal-on-scroll">
+            <span class="eyebrow">A Moment for Yourself</span>
+            <h2 class="section-title">Where Wellbeing<br>Meets Indulgence</h2>
+            <div class="gold-divider"></div>
+            <p class="body-text">
+              Step into a considered space dedicated to relaxation and personal wellbeing. The Darling Spa offers a collection of spa treatments and experiences designed to create a welcome pause from the pace of everyday life.
+            </p>
+            <p class="body-text body-text--muted">
+              Nestled on Level 2 of The Star, each detail is structured to foster balance and renewed vitality through refined, unhurried care.
+            </p>
+            <div class="editorial-action">
+              <a href="#treatments" class="text-link">Discover The Spa <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Signature Treatments Section -->
+    <section class="section treatments" id="treatments">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">Curated Wellness</span>
+          <h2 class="section-title">Thoughtfully Curated Treatments</h2>
+          <p class="section-subtitle">
+            Explore a selection of spa treatments designed around relaxation, care, and personal wellbeing.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <!-- Card 1 -->
+          <article class="treatment-card reveal-on-scroll">
+            <div class="treatment-card__image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80" 
+                alt="Treatment room setup with fresh towels and serene background" 
+                loading="lazy"
+              >
+            </div>
+            <div class="treatment-card__body">
+              <span class="treatment-card__category">Therapy</span>
+              <h3 class="treatment-card__title">Massage Therapies</h3>
+              <p class="treatment-card__desc">
+                Take a moment to relax with massage experiences tailored to your chosen treatment and preferences.
+              </p>
+              <a href="#enquire" class="text-link" aria-label="Explore Massage therapies">Explore Massage <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="treatment-card reveal-on-scroll">
+            <div class="treatment-card__image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" 
+                alt="Gentle facial treatment setup" 
+                loading="lazy"
+              >
+            </div>
+            <div class="treatment-card__body">
+              <span class="treatment-card__category">Skincare</span>
+              <h3 class="treatment-card__title">Facial &amp; Skincare</h3>
+              <p class="treatment-card__desc">
+                Discover facial and skincare experiences in a calm, restorative setting.
+              </p>
+              <a href="#enquire" class="text-link" aria-label="Explore Facials and skincare">Explore Facials <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="treatment-card reveal-on-scroll">
+            <div class="treatment-card__image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" 
+                alt="Luxury spa towels, stones, and body treatment products" 
+                loading="lazy"
+              >
+            </div>
+            <div class="treatment-card__body">
+              <span class="treatment-card__category">Restoration</span>
+              <h3 class="treatment-card__title">Body Treatments</h3>
+              <p class="treatment-card__desc">
+                Enjoy body-focused spa treatments designed to make your visit feel considered and unhurried.
+              </p>
+              <a href="#enquire" class="text-link" aria-label="Explore Body Treatments">Explore Body Treatments <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="treatment-card reveal-on-scroll">
+            <div class="treatment-card__image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80" 
+                alt="Couples relaxation suite interior" 
+                loading="lazy"
+              >
+            </div>
+            <div class="treatment-card__body">
+              <span class="treatment-card__category">Shared Care</span>
+              <h3 class="treatment-card__title">Couples' Experiences</h3>
+              <p class="treatment-card__desc">
+                Share a relaxing spa experience in a setting designed for two.
+              </p>
+              <a href="#enquire" class="text-link" aria-label="Discover Couples Experiences">Discover Couples' Experiences <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Signature Spa Experience -->
+    <section class="section section--dark signature" id="signature">
+      <div class="container">
+        <div class="split-grid split-grid--reversed">
+          <div class="split-grid__media reveal-on-scroll">
+            <div class="media-frame">
+              <img 
+                src="https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=1000&q=80" 
+                alt="Private spa hydrotherapy basin with serene ambient backlighting" 
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <div class="split-grid__content reveal-on-scroll">
+            <span class="eyebrow eyebrow--gold">The Art of Unwinding</span>
+            <h2 class="section-title text-white">Space to Slow Down</h2>
+            <div class="gold-divider"></div>
+            <p class="body-text text-white-muted">
+              From dedicated treatment spaces to selected wellness facilities, discover an environment designed to make relaxation part of the experience.
+            </p>
+
+            <div class="metrics-grid">
+              <div class="metric-item">
+                <span class="metric-number">11</span>
+                <span class="metric-label">Treatment Rooms</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-number">2</span>
+                <span class="metric-label">Couples' Suites</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-icon" aria-hidden="true">&#9671;</span>
+                <span class="metric-label">Steam Room</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-icon" aria-hidden="true">&#9671;</span>
+                <span class="metric-label">Jacuzzi</span>
+              </div>
+            </div>
+
+            <div class="special-feature-box">
+              <h4 class="special-feature-title">Ozean Journey</h4>
+              <p class="special-feature-desc">
+                A signature hydro-journey structured to complement therapy rituals. Please enquire directly with our concierge team on WhatsApp for current inclusions and scheduling.
+              </p>
+            </div>
+
+            <div class="editorial-action">
+              <a href="#enquire" class="btn btn--gold">Enquire About Your Experience</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Couples' Spa Section -->
+    <section class="section couples" id="couples">
+      <div class="container">
+        <div class="split-grid">
+          <div class="split-grid__content reveal-on-scroll">
+            <span class="eyebrow">Intimate Sanctuary</span>
+            <h2 class="section-title">Time Well Spent Together</h2>
+            <div class="gold-divider"></div>
+            <p class="body-text">
+              Discover a shared spa experience in a setting designed for two. Explore available couples' treatments and connect with the spa team about options for your visit.
+            </p>
+            <p class="body-text body-text--muted">
+              Designed with private change suites and customized therapy settings, our two dedicated couples' chambers allow you to step away together in peace.
+            </p>
+            <div class="editorial-action">
+              <a href="#enquire" class="btn btn--outline-dark">Explore Couples' Experiences</a>
+            </div>
+          </div>
+          <div class="split-grid__media reveal-on-scroll">
+            <div class="media-frame">
+              <img 
+                src="https://images.unsplash.com/photo-1544161513-0179fe746fd5?auto=format&fit=crop&w=1000&q=80" 
+                alt="Two massage beds dressed in pure linen in an ambient couple's suite" 
+                loading="lazy"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. The Sanctuary / Facilities -->
+    <section class="section section--light sanctuary" id="sanctuary">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">Atmosphere &amp; Amenities</span>
+          <h2 class="section-title">Your Space to Restore</h2>
+          <p class="section-subtitle">
+            An inviting setting, considered details, and moments dedicated to relaxation.
+          </p>
+        </div>
+
+        <div class="facilities-grid">
+          <div class="facility-card reveal-on-scroll">
+            <div class="facility-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=600&q=80" 
+                alt="Steam and hydrotherapy sanctuary atmosphere" 
+                loading="lazy"
+              >
+            </div>
+            <div class="facility-card__info">
+              <h3>Steam &amp; Warmth</h3>
+              <p>Purifying thermal environments to loosen muscle tension before rituals.</p>
+            </div>
+          </div>
+
+          <div class="facility-card reveal-on-scroll">
+            <div class="facility-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80" 
+                alt="Gentle jacuzzi waters with tranquil lighting" 
+                loading="lazy"
+              >
+            </div>
+            <div class="facility-card__info">
+              <h3>Jacuzzi Pool</h3>
+              <p>Quiet hydro-immersion designed to transition the mind and body into rest.</p>
+            </div>
+          </div>
+
+          <div class="facility-card reveal-on-scroll">
+            <div class="facility-card__media">
+              <img 
+                src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=600&q=80" 
+                alt="Quiet relaxation lounge with tea service" 
+                loading="lazy"
+              >
+            </div>
+            <div class="facility-card__info">
+              <h3>Relaxation Lounge</h3>
+              <p>An unhurried post-treatment enclave with restorative herbal refreshments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Gallery Section (Lightbox Enabled) -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">Visual Journey</span>
+          <h2 class="section-title">A Closer Look</h2>
+          <p class="section-subtitle">A glimpse into our serene suites, textures, and restorative atmosphere.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item reveal-on-scroll" data-index="0" aria-label="Enlarge image of Private Treatment Suite">
+            <img 
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=85" 
+              alt="Private Treatment Suite" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+          
+          <button class="gallery-item reveal-on-scroll" data-index="1" aria-label="Enlarge image of Organic Essential Oils">
+            <img 
+              src="https://images.unsplash.com/photo-1608248597359-715764d84a71?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1608248597359-715764d84a71?auto=format&fit=crop&w=1600&q=85" 
+              alt="Organic Essential Oils" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+          
+          <button class="gallery-item reveal-on-scroll" data-index="2" aria-label="Enlarge image of Steam & Thermal Suite">
+            <img 
+              src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85" 
+              alt="Steam & Thermal Suite" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+
+          <button class="gallery-item reveal-on-scroll" data-index="3" aria-label="Enlarge image of Couples Sanctuary Suite">
+            <img 
+              src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1600&q=85" 
+              alt="Couples Sanctuary Suite" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+
+          <button class="gallery-item reveal-on-scroll" data-index="4" aria-label="Enlarge image of Restorative Towels and Textures">
+            <img 
+              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=85" 
+              alt="Restorative Towels and Textures" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+
+          <button class="gallery-item reveal-on-scroll" data-index="5" aria-label="Enlarge image of Water Sanctuary Jacuzzi">
+            <img 
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" 
+              data-full="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85" 
+              alt="Water Sanctuary Jacuzzi" 
+              loading="lazy"
+            >
+            <span class="gallery-item__overlay"><span>View Full</span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Why Visit Section -->
+    <section class="section section--light why-us" id="why-us">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">Our Ethos</span>
+          <h2 class="section-title">A Considered Approach to Relaxation</h2>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-item reveal-on-scroll">
+            <span class="pillar-bullet">&#9670;</span>
+            <h3 class="pillar-title">Dedicated Setting</h3>
+            <p class="pillar-desc">A specialized, discreet wellness enclave situated on Level 2 within The Star Pyrmont.</p>
+          </div>
+          <div class="pillar-item reveal-on-scroll">
+            <span class="pillar-bullet">&#9670;</span>
+            <h3 class="pillar-title">Tailored Rituals</h3>
+            <p class="pillar-desc">Comprehensive massage, skincare, and facial categories adapted to individual needs.</p>
+          </div>
+          <div class="pillar-item reveal-on-scroll">
+            <span class="pillar-bullet">&#9670;</span>
+            <h3 class="pillar-title">Private Accommodations</h3>
+            <p class="pillar-desc">Eleven dedicated treatment rooms alongside two private suites designed for couples.</p>
+          </div>
+          <div class="pillar-item reveal-on-scroll">
+            <span class="pillar-bullet">&#9670;</span>
+            <h3 class="pillar-title">Hospitality Standard</h3>
+            <p class="pillar-desc">Attentive, quiet care tailored to offer genuine relief from urban pace.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. Verified Reviews & Social Proof Section -->
+    <section class="section reviews" id="reviews">
+      <div class="container text-center reveal-on-scroll">
+        <span class="eyebrow">Guest Impressions</span>
+        <h2 class="section-title">Experiences That Speak for Themselves</h2>
+        <div class="gold-divider center"></div>
+        <p class="body-text body-text--centered max-text-ch">
+          We welcome guests to read authentic guest feedback across verified independent channels before reserving an appointment.
+        </p>
+
+        <div class="review-platforms">
+          <div class="review-badge">
+            <span class="review-badge__platform">Google Reviews</span>
+            <span class="review-badge__note">Verified guest feedback available online</span>
+            <a href="https://maps.google.com/?q=The+Darling+Spa+The+Star+Sydney" target="_blank" rel="noopener noreferrer" class="text-link">Read Google Reviews &rarr;</a>
+          </div>
+          <div class="review-badge">
+            <span class="review-badge__platform">Tripadvisor</span>
+            <span class="review-badge__note">Independent travel community ratings</span>
+            <a href="https://www.tripadvisor.com/Search?q=The+Darling+Spa+Sydney" target="_blank" rel="noopener noreferrer" class="text-link">Explore Tripadvisor &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. Opening Hours Section -->
+    <section class="section section--light hours" id="hours">
+      <div class="container">
+        <div class="split-grid split-grid--aligned">
+          <div class="split-grid__content reveal-on-scroll">
+            <span class="eyebrow">Operating Hours</span>
+            <h2 class="section-title">Plan Your Visit</h2>
+            <div class="gold-divider"></div>
+            <p class="body-text">
+              Hours are subject to public holidays and bespoke operational arrangements. Please confirm treatment availability with our reception prior to arrival.
+            </p>
+            <div class="editorial-action">
+              <a href="tel:+61296578088" class="btn btn--outline-dark">Call The Spa</a>
+            </div>
+          </div>
+          <div class="split-grid__media reveal-on-scroll">
+            <div class="hours-card">
+              <table class="hours-table">
+                <caption class="sr-only">Weekly Opening Hours for The Darling Spa</caption>
+                <tbody>
+                  <tr>
+                    <th scope="row">Monday</th>
+                    <td>10:00 AM – 6:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tuesday</th>
+                    <td>10:00 AM – 6:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Wednesday</th>
+                    <td>10:00 AM – 6:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Thursday</th>
+                    <td>10:00 AM – 6:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Friday</th>
+                    <td>10:00 AM – 7:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Saturday</th>
+                    <td>10:00 AM – 7:00 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sunday</th>
+                    <td>10:00 AM – 6:00 PM</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="hours-footnote">
+                Hours may vary. Please confirm availability with the spa before your visit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Location & Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="split-grid">
+          <div class="split-grid__content reveal-on-scroll">
+            <span class="eyebrow">Pyrmont, Sydney</span>
+            <h2 class="section-title">Find Our Sanctuary</h2>
+            <div class="gold-divider"></div>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-label">Location</span>
+                <p class="contact-val">
+                  The Darling Spa<br>
+                  Level 2, The Star<br>
+                  80 Pyrmont Street<br>
+                  Pyrmont, NSW 2009, Sydney, Australia
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Telephone</span>
+                <p class="contact-val">
+                  <a href="tel:+61296578088" class="contact-link">+61 2 9657 8088</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-buttons">
+              <a href="tel:+61296578088" class="btn btn--gold">Call The Spa</a>
+              <a href="https://maps.google.com/?q=The+Darling+Spa+80+Pyrmont+Street+Pyrmont+NSW" target="_blank" rel="noopener noreferrer" class="btn btn--outline-dark">Get Directions</a>
+            </div>
+          </div>
+
+          <div class="split-grid__media reveal-on-scroll">
+            <div class="map-embed-container">
+              <iframe 
+                title="Google Maps Location for The Darling Spa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.836691768406!2d151.1931535767732!3d-33.86811227322744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae30c45500e5%3A0xe54e27f4d7159c39!2sThe%20Darling%20Spa!5e0!3m2!1sen!2sau!4v1710000000000!5m2!1sen!2sau" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. Book / WhatsApp Contact Section -->
+    <section class="section section--dark booking" id="enquire">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div class="section-header text-center reveal-on-scroll">
+            <span class="eyebrow eyebrow--gold">Reservations &amp; Enquiries</span>
+            <h2 class="section-title text-white">Your Next Moment of Calm Awaits</h2>
+            <p class="section-subtitle text-white-muted">
+              Connect directly with our spa concierge team on WhatsApp or call our reception to plan your visit.
+            </p>
+          </div>
+
+          <!-- WhatsApp Concierge Card -->
+          <div class="whatsapp-card reveal-on-scroll">
+            <div class="whatsapp-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.13 8.13 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4a8.13 8.13 0 0 1 2.4 5.79c-.01 4.51-3.68 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.46-.72-1.68-.8-.23-.09-.39-.12-.56.13-.17.25-.64.8-.79.97-.14.17-.29.19-.53.07-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.65 4.2 3.71.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.47-.3z"/>
+              </svg>
+            </div>
+            
+            <h3 class="whatsapp-card__title">Chat with Spa Concierge</h3>
+            <p class="whatsapp-card__text">
+              Direct consultation for treatment recommendations, couple suite packages, and availability.
+            </p>
+
+            <div class="whatsapp-card__actions">
+              <a 
+                href="https://wa.me/61296578088?text=Hello%20The%20Darling%20Spa,%20I%20would%20like%20to%20enquire%20about%20a%20spa%20booking." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn--whatsapp"
+              >
+                Start WhatsApp Chat
+              </a>
+              <a href="tel:+61296578088" class="btn btn--secondary">
+                Call +61 2 9657 8088
+              </a>
+            </div>
+
+            <span class="whatsapp-card__note">
+              Typically replies during spa operational hours (10:00 AM – 6:00 PM)
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 17. Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">THE DARLING SPA</span>
+          <p class="footer-desc">
+            A luxury spa experience located within The Star complex in Pyrmont, Sydney.
+          </p>
+          <div class="footer-disclaimer-note">
+            Independent website concept — not affiliated with or endorsed by The Darling Spa.
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about">The Spa</a></li>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#signature">Experiences</a></li>
+            <li><a href="#sanctuary">Our Sanctuary</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Visit Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Sanctuary Location</h4>
+          <address class="footer-address">
+            Level 2, The Star<br>
+            80 Pyrmont Street<br>
+            Pyrmont NSW 2009<br>
+            Sydney, Australia
+          </address>
+          <p class="footer-contact">
+            Phone: <a href="tel:+61296578088">+61 2 9657 8088</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> The Darling Spa Concept. All rights reserved.</p>
+        <p class="footer-meta-note">Concept proposal developed for editorial and demonstration review.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 11. Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview lightbox" aria-hidden="true">
+    <div class="lightbox__overlay" id="lightboxOverlay"></div>
+    <div class="lightbox__container">
+      <button class="lightbox__btn lightbox__btn--close" id="lightboxClose" aria-label="Close image preview">&times;</button>
+      <button class="lightbox__btn lightbox__btn--prev" id="lightboxPrev" aria-label="Previous image">&larr;</button>
+      
+      <div class="lightbox__media">
+        <img src="" alt="" id="lightboxImg" class="lightbox__img">
+      </div>
+      
+      <button class="lightbox__btn lightbox__btn--next" id="lightboxNext" aria-label="Next image">&rarr;</button>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a 
+    href="https://wa.me/61296578088?text=Hello%20The%20Darling%20Spa,%20I%20would%20like%20to%20enquire%20about%20a%20treatment." 
+    class="floating-whatsapp" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    aria-label="Chat on WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="#ffffff">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.13 8.13 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4a8.13 8.13 0 0 1 2.4 5.79c-.01 4.51-3.68 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.46-.72-1.68-.8-.23-.09-.39-.12-.56.13-.17.25-.64.8-.79.97-.14.17-.29.19-.53.07-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.65 4.2 3.71.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.47-.3z"/>
+    </svg>
+    <span class="floating-whatsapp__tooltip">Chat with us</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
